@@ -17,7 +17,6 @@ export class RotaListComponent implements OnInit {
   }
 
   deleteRota(id: number): void {
-    console.log(id)
     this.rotaService.deleteRota(id).subscribe(() => {
       this.rotas = this.rotas.filter(rota => rota.id !== id);
     });
