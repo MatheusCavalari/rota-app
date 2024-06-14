@@ -9,6 +9,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ContainerComponent } from './shared/container/container.component';
 import { RotaListComponent } from './rotas/rota-list/rota-list.component';
+import { RotaFormComponent } from './rotas/rota-form/rota-form.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RotaListComponent } from './rotas/rota-list/rota-list.component';
     HeaderComponent,
     FooterComponent,
     ContainerComponent,
-    RotaListComponent
+    RotaListComponent,
+    RotaFormComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,19 @@
+<app-container>
+  <h2>{{ id ? 'Editar' : 'Adicionar' }} Rota</h2>
+  <form (ngSubmit)="save()">
+    <div>
+      <label for="origem">Origem:</label>
+      <input type="text" id="origem" [(ngModel)]="rota.origem" name="origem" required>
+    </div>
+    <div>
+      <label for="destino">Destino:</label>
+      <input type="text" id="destino" [(ngModel)]="rota.destino" name="destino" required>
+    </div>
+    <div>
+      <label for="valor">Valor:</label>
+      <input type="number" id="valor" [(ngModel)]="rota.valor" name="valor" required>
+    </div>
+    <button type="submit">Salvar</button>
+    <a [routerLink]="['/rotas']">Cancelar</a>
+  </form>
+  </app-container>
