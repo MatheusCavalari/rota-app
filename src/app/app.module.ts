@@ -8,13 +8,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ContainerComponent } from './shared/container/container.component';
+import { RotaListComponent } from './rotas/rota-list/rota-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ContainerComponent
+    ContainerComponent,
+    RotaListComponent
   ],
   imports: [
     BrowserModule,

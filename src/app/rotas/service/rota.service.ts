@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Rota } from 'src/app/core/types/rota';
 import { RotaDTO } from 'src/app/core/types/rotaDTO';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
